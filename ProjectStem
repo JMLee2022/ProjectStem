@@ -1,0 +1,14 @@
+a=int(input("How many numbers do you need to check? "))
+odd=0
+even=0
+for a in range (0,a):
+    z=int(input("Enter number: "))
+    b=z%2
+    if (b==1 or b==-1):
+        print(str(z)+" is an odd number.")
+        odd=odd+1
+    elif (b==0):
+        print (str(z)+" is an even number.")
+        even=even+1
+print ("You entered "+str(even)+" even number(s).")
+print ("You entered "+str(odd)+" odd number(s).")
